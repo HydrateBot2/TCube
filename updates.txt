@@ -1,0 +1,29 @@
+9/18/24
+Got done: fixed one of the issues, cleaned up code a lot(Still needs quite a bit of work)
+
+Issue: when running the "test" function, the tetrisCube ends up having more than 12 pieces
+
+What I think is casuing the issue: I believe that some of my objects are referencing the same object when they should be seperate, causing changes I do not intend.
+
+fixed one of the issues causing the cube to be falsely updated everytime the piece was put in.
+still issues
+
+Solution: TBD
+
+
+9/23/24
+Figured out the issue that was cuasing the pieces to be placed over and over
+moved collision check into the Piece class to get it working
+
+Got Done: iterateThroughPieces now actually places piece :D
+
+
+9/25/24
+
+Mostly used ChatGPT to fix the rotation class and get all the unique rotations for each Piece
+Rotations is now working and replaces rotatePiece.java
+
+Got Done: Got every unique rotation for each piece stored in an arrayList
+:D
+
+
