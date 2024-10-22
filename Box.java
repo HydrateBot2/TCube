@@ -156,6 +156,7 @@ public class Box{
         // System.out.println(oldCube[2][2][2] + " o ");
         return newBox;
     }
+<<<<<<< HEAD
     public int[][][] removePiece(int[][][] oldCube, int[][][] piece, int leftShift, int forwardShift, int downwardShift){
         int[][][] newBox = new int[10][10][10];
         for (int i = 0; i < 10; i++) {
@@ -177,6 +178,8 @@ public class Box{
         // System.out.println(oldCube[2][2][2] + " o ");
         return newBox;
     }
+=======
+>>>>>>> bb817ab1e3da56cfe408078ce7e766bb9b9a0bd0
 
     /*Combination of both checkBoxCollision and checkPieceCollision(See below)
     * returns true if piece is colliding with either the box or another piece
@@ -240,6 +243,7 @@ public class Box{
         return cannotplace;
     }
 
+<<<<<<< HEAD
     public boolean fullBox(int[][][] box){
         for(int i = 0; i < 10; i++){
             for(int j = 0; j < 10; j++){
@@ -253,6 +257,8 @@ public class Box{
         return true;
     }
 
+=======
+>>>>>>> bb817ab1e3da56cfe408078ce7e766bb9b9a0bd0
 
     //returns the box in this class, Box.java
     public int[][][] getBox(){

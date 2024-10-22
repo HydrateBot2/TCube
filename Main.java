@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import java.util.ArrayList;
+>>>>>>> bb817ab1e3da56cfe408078ce7e766bb9b9a0bd0
 
 public class Main{
         public static void main(String[] args){
@@ -12,6 +16,7 @@ public class Main{
         Rotations rotate1 = new Rotations();
         Piece tempPiece = pieces.getParticularPiece();
 
+<<<<<<< HEAD
         // test.getSolutions();
 
         // test for putting one piece in all rotations.
@@ -27,12 +32,32 @@ public class Main{
         //     System.out.println("-----------------------------------\n");
         //     rotationCount++;
         // }
+=======
+        ArrayList<Piece> allRotations = Rotations.getAllRotations(tempPiece);
+
+int rotationCount = 1;
+for (Piece rotatedPiece : allRotations) {
+    System.out.println("Rotation " + rotationCount + ":");
+    System.out.println(rotatedPiece.toString());
+    System.out.println("-----------------------------------\n");
+    rotationCount++;
+}
+>>>>>>> bb817ab1e3da56cfe408078ce7e766bb9b9a0bd0
 
         // for(int i = 0; i < Rotations.getAllRotations(tempPiece).size(); i++){
         //     System.out.println(Rotations.getAllRotations(tempPiece).get(i));
         // }
 
+<<<<<<< HEAD
         // initial test
+=======
+
+
+
+
+
+        //initial test
+>>>>>>> bb817ab1e3da56cfe408078ce7e766bb9b9a0bd0
         // test.test();
         // for(int i = 0; i < 10; i++){
         //     for(int j = 0; j < 10; j++){
@@ -43,6 +68,7 @@ public class Main{
         //     }
         //     System.out.println();
         // }
+<<<<<<< HEAD
         // System.out.println(test.getpieceinsert());
 
         test.getSolutions(1);
@@ -55,6 +81,10 @@ public class Main{
             }
             System.out.println();
         }
+=======
+        //System.out.println(test.getpieceinsert());
+
+>>>>>>> bb817ab1e3da56cfe408078ce7e766bb9b9a0bd0
 
 
         //prior tests

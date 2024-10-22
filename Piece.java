@@ -1,7 +1,11 @@
 import java.util.*;
 
 
+<<<<<<< HEAD
 public class Piece{
+=======
+public class Piece extends rotatePiece{
+>>>>>>> bb817ab1e3da56cfe408078ce7e766bb9b9a0bd0
     ArrayList<Integer[][][]> piecesList = new ArrayList<>(); 
     Dictionary<String, Piece> pieceDictionary = new Hashtable<>();
     ArrayList<String> keyList;
